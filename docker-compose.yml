@@ -2,7 +2,7 @@ version: "3"
 
 services:
   mc:
-    image: itzg/minecraft-server:java8
+    image: itzg/minecraft-server:multiarch
     container_name: "${APP_CONTAINER_NAME}"
     ports:
       - ${SERVER_PORT}:25565
@@ -10,6 +10,7 @@ services:
       EULA: "TRUE"
       TYPE: "${SERVER_TYPE}"
       VERSION: "${VERSION}"
+      GENERIC_PACK: "${GENERIC_PACK}"
       CF_SERVER_MOD: "${CF_SERVER_MOD}"
       OVERRIDE_SERVER_PROPERTIES: "${OVERRIDE_SERVER_PROPERTIES}"
       MOTD: "${MOTD}"
