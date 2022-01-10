@@ -46,3 +46,4 @@ services:
     - ${DATA_PATH}/data:/data
     # all mods in this directory get copied into /data/mods at startup
     - ${DATA_PATH}/mods:/mods:ro
+    - ${DATA_PATH}/modpacks:/modpacks
