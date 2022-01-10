@@ -4,5 +4,11 @@
     "name": "AEhre",
     "level": 0,
     "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "c371fbf8-7389-417c-a092-cb92a51dc2e7",
+    "name": "Mighty_Stackler",
+    "level": 0,
+    "bypassesPlayerLimit": true
   }
 ]
